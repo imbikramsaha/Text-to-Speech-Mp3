@@ -1,0 +1,5 @@
+from gtts import gTTS
+mytext = "My English text"
+language = 'en'
+myobj = gTTS(text=mytext, lang=language, slow=False)
+myobj.save("Myfile.mp3")
